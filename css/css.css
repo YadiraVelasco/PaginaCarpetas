@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@import url(menu.css);
+@import url(banner.css);
+
+* {
+    margin:0px; 
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+
+.body{
+    background-color: #FDFDFF;
+    
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background: #C19875;
+    color: #ffff;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;  
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+    
+}
+header .contenedor {
+    display: table;
+
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+    
+}
+#Bienvenidos{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-top: 30%;
+    
+}
+
+.copy{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    background-color: antiquewhite;
+    
+}
+
+.sociales a {
+    color: #333;
+    text-decoration: none;
+    background-color: antiquewhite;
+    
+}
+
+@media (min-width:768px) {
+    .sociales {
+        width: auto;
+        }
+    footer .contenedor {
+        
+        justify-content: space-between;
+    }
+    
+    
+
+}
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1000px;
+    
+    }
+    
+}
+
+.contenedor:hover .img1 {-webkit-transform:scale(1.1);transform:scale(1.1);}
+.contenedor {overflow:hidden;}
+
+.contenedor:hover .img2 {-webkit-transform:scale(1.1);transform:scale(1.1);}
+.contenedor {overflow:hidden;}
+
+.contenedor:hover .img3 {-webkit-transform:scale(1.1);transform:scale(1.1);}
+.contenedor {overflow:hidden;}
+
+.icono img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 3px;
+    margin-top: 3px;
+    
+}
+    
+    

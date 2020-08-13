@@ -1,0 +1,32 @@
+#blog h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 60px;
+    
+}
+
+#blog h4 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+#blog article {
+    margin: 15px;
+    
+}
+
+#blog img{
+    width: 100%;
+    max-width: 280px;
+    border-radius: 50%;
+    
+}

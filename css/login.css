@@ -1,0 +1,281 @@
+* {
+    margin:0px; 
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+    color: #ffff;
+    
+
+}
+
+.body{
+    background-color: #FDFDFF;
+    
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label{
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.menu {
+    font-family: cursive;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(51,51,51,0.9);
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+
+.menu a {
+    display: block;
+    color: #ffff;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(245,203,167,0.5);
+    
+    }
+.menu a:hover {
+    background: rgba(255,255,255,0.3);
+    }
+
+#menu-bar:checked ~ .menu {
+    transform:translateX(0%);
+    
+}
+
+@media (min-width:1024px) {
+.menu {
+    position: static;
+    width: auto;
+    height: auto;
+    transform: translateX(0%);
+    float: right;
+    display: flex;
+        }
+    
+.menu a {
+    border: none;
+    
+ }  
+header label{
+    display: none;
+    
+}
+    
+    
+    
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background: #C19875;
+    color: #ffff;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;  
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+    
+}
+header .contenedor {
+    display: table;
+
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+    
+}
+
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: antiquewhite;
+    margin-top: 30%;
+    
+}
+
+.copy{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    background-color: antiquewhite;
+    
+}
+
+.sociales a {
+    color: #333;
+    text-decoration: none;
+    background-color: antiquewhite;
+    
+}
+
+@media (min-width:768px) {
+    .sociales {
+        width: auto;
+        }
+    footer .contenedor {
+        
+        justify-content: space-between;
+    }
+    
+    
+
+}
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1000px;
+    
+    }
+    
+}
+    
+#blog h3 {
+    text-align: center;
+    font-size: 30px;
+      
+}
+
+
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+#blog article {
+    margin: 15px;
+    
+}
+
+.Formulario { /*etiqueta class*/
+    background-image: url(../imagen/23327.png); /* establece la imagen de fondo*/
+    width: 300px; /*establece el ancho de la caja*/
+    height: 425px; /*establece la altura de la caja*/
+    margin: auto; /*establece el margen predeterminado*/
+    margin-top: 100px; /*establece el margen superior*/
+    border-radius: 8px; /*borde de los lados una propiedad*/
+}
+
+.logo { /*etiqueta class*/
+    width: 130px; /*establece el ancho de la caja*/
+    margin-left: 85px; /*establece el margen derecho*/
+    margin-top: 20px; /*establece el margen superior*/
+    border-radius: 100px /*borde de los lados una propiedad*/
+}
+.Formulario h3{ /*etiqueta Formulario h3*/
+    color: #14A6AC; /*color de fuente*/
+    text-align: center; /*texto alineado al centro*/
+    margin-top: 10px; /*establece el margen superior*/
+    font-size: 10px; /*establece el tamaño de letra*/
+
+}
+
+.loginEtiquetas { /*etiqueta class*/
+    display: block; /*muestra alternativa de un elemento*/
+    text-align: center; /*texto alineado al centro*/
+    color: black; /*color de fuente*/
+    margin-top: 20px; /*establece el margen superior*/
+    
+}
+
+.check {
+    margin-top: 20px;
+    background-color:#FFFFD3;
+    width: 15px;
+    height: 20px;
+    margin-left: 50px;
+    color: #ffff;
+    
+        
+    
+}
+
+
+.entradaDatos { /*etiqueta class*/
+    display: block; /*muestra alternativa de un elemento*/
+    margin: auto; /*establece el margen predeterminado*/
+    width: 205px; /*establece el ancho de la caja*/
+    height: 30px; /*establece la altura de la caja*/
+    border-radius: 1px; /*borde de los lados una propiedad*/
+    padding-left: 10px; /*establece espacion en el borde izquierdo*/
+    border: 0px; /*borde de una propiedad*/
+    color: black;
+}
+.botonIniciar { /*etiqueta class*/
+    width: 100px; /*establece el ancho de la caja*/
+    height: 30px; /*establece la altura de la caja*/
+    margin: 5px; /*establece el margen*/
+    display: block; /*muestra alternativa de un elemento*/
+    background-color: #0E4C57; /*establece el color de fondo*/
+    outline: none; /* establece el grosor, estilo y anchura de los perfiles*/
+    color: #ffffff; /*etiqueta color*/
+    border: 0px; /*borde de una propiedad*/
+    margin-top: 8px; /*establece el margen superior*/
+    margin-left: 180px;
+}
+
+body h4{ /*etiqueta Formulario h3*/
+    color: #14A6AC; /*color de fuente*/
+    text-align: center; /*texto alineado al centro*/
+    margin-top: 50px; /*establece el margen superior*/
+    font-size: 50px; /*establece el tamaño de letra*/
+
+}
+
+.icono img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    margin-top: 5px;
+    
+}
+
+#blog p {
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+    color: gray;
+}  
+
+body h5 {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 30px;
+    color: dimgray;
+}  
